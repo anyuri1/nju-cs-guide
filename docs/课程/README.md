@@ -78,6 +78,29 @@
 - [pwn.college](https://pwn.college/)：亚利桑那州立大学维护的动手安全课程；在合法环境里学习漏洞与防护。
 - [Cryptopals](https://cryptopals.com/)：用编程题理解密码系统常见构件与攻击。
 
+## 刷题与算法
+
+课程学的是原理，刷题练的是把它变成手速。保研机试、考研 408、实习面试的算法环节都考这个。
+
+**先建直觉，再上量**
+
+- [Hello 算法](https://www.hello-algo.com/)：动画图解加可运行代码，第一次学数据结构不劝退。
+- [代码随想录](https://programmercarl.com/)：按专题组织的刷题路线与题解，和 LeetCode 配合用。
+- [OI Wiki](https://oi-wiki.org/)：算法与数据结构百科，长期查阅型，不要从头读到尾。
+
+**平台**
+
+- [LeetCode](https://leetcode.cn/problemset/)：面试向，中文题面，国内访问快。
+- [洛谷](https://www.luogu.com.cn/)：题单体系适合从零打基础。
+- [Codeforces](https://codeforces.com/)：div3 / div4 适合练手速与思维。
+- [牛客](https://www.nowcoder.com/)：校招笔试真题。
+
+**建议顺序**：数组 → 链表 → 哈希表 → 字符串 → 双指针 → 栈与队列 → 二叉树 → 回溯 → 贪心 → 动态规划
+
+按专题刷，不按题号刷；每题限时，超时看题解，**第二天重做**；建立“题型 → 模板”的映射，不要背题。
+
+每周三到五题、坚持两年，比考前突击一百题有用。**数量不是验收标准，能复述解法才是。**
+
 ## 南大同学维护的材料
 
 - [NJUCS 往年卷](https://github.com/NijikaIjichi/njucs-past-exam) 与 [NJUCS Course Material](https://github.com/zhangyikaii/NJUCS-Course-Material)：先看仓库许可和来源；未公开的答案、课件不要二次上传。
