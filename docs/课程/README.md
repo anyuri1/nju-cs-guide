@@ -103,7 +103,38 @@
 
 ## 南大同学维护的材料
 
-- [NJUCS 往年卷](https://github.com/NijikaIjichi/njucs-past-exam) 与 [NJUCS Course Material](https://github.com/zhangyikaii/NJUCS-Course-Material)：先看仓库许可和来源；未公开的答案、课件不要二次上传。
+> 同一门课，前几届已经踩过坑了。用之前先看仓库许可和来源；**未公开的答案、课件不要二次上传**。
+
+### 跨学期都能用
+
+- [NJUCS 往年卷](https://github.com/NijikaIjichi/njucs-past-exam)：最实用的一条。
+- [NJUCS Course Material](https://github.com/zhangyikaii/NJUCS-Course-Material)：课程资料合集。
 - [SpriCoder Notes](https://github.com/SpriCoder/SpriCoder-Notes)：软件学院课程笔记，适合作为补充索引。
+- [ICS Wiki](https://njuics-wiki.github.io/ics-wiki/)：计算机系统基础课程 wiki。
+
+### 按学期看
+
+| 学期 | 课程 | 现成的 |
+| --- | --- | --- |
+| 大二上 | 计算机系统基础 | [CSAPP 中文版](https://fengmuzi2003.gitbook.io/csapp3e) · [PA 官方文档](https://nju-projectn.github.io/ics-pa-gitbook/ics2024/) · [Bomb Lab 详解](https://arthals.ink/blog/bomb-lab) |
+| 大二下 | 操作系统原理 | [jyy OS](https://jyywiki.cn/OS/2026/) · [OSTEP 笔记与习题答案](https://github.com/joshuap233/Operating-Systems-Three-Easy-Pieces-NOTES) |
+| | 计算机网络 | [南大计网](https://cs.nju.edu.cn/lwz/networks/) · [计网实验文档](https://netdocs.lab427.top/) |
+| 大三上 | 机器学习导论 | [南大 LAMDA 课程页](https://www.lamda.nju.edu.cn/yehj/ml2026/) |
+| | 数据库概论 | [IDB 数据库资料](https://github.com/RiceCakeInJar/IDB) |
+| | 分布式（自学） | [MIT 6.5840](https://pdos.csail.mit.edu/6.824/) |
+| 大三下 | 编译原理 | [南大编译原理](https://cs.nju.edu.cn/changxu/2_compiler/index.html) · [Compiler OJ](https://compiler.pascal-lab.net/contest) · [紫龙书习题答案](https://github.com/fool2fish/dragon-book-exercise-answers) |
+
+课程平台（`cslab-cms.nju.edu.cn`）和 Box 分享**需要登录，学期结束后可能失效**，所以这里只列公开仓库和课程主页。
+
+### 学长学姐的博客
+
+课程笔记、实验踩坑和升学经验，比随手搜到的靠谱：
+
+- [Yoson's Blog](https://yosonl.work/archives/) · [咸鱼暄的代码空间](https://xuan-insr.github.io/) · [idealclover](https://idealclover.top/)
+- [NOSAE's blog](https://nos-ae.github.io/) · [Shotsuke's Blog](https://shotsuke.github.io/)
+- [GrapefruitCat](https://www.cnblogs.com/grapefruit-cat) · [gonghr](https://www.cnblogs.com/gonghr)
+- [OrangeX4's Blog](https://blog.orangex4.workers.dev/) · [LFool's Notes](https://lfool.github.io/LFool-Notes/)
+
+复习与面试向的中文笔记另有 [小林coding](https://xiaolincoding.com/)（计网 / 操作系统 / MySQL，非本校）。
 
 一门公开课的最低完成标准：读 syllabus，做一次作业，写一页自己的笔记。只点过 Star 不算。
