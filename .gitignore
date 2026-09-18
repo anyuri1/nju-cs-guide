@@ -1,0 +1,32 @@
+# ---- LaTeX 编译产物 ----
+*.aux
+*.log
+*.out
+*.toc
+*.nav
+*.snm
+*.vrb
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.synctex\(busy\)
+*.bbl
+*.blg
+*.xdv
+*.lof
+*.lot
+latexmkrc.bak
+
+# 注意：slides/slide.pdf 是交付物，必须提交，不要加进忽略列表
+
+# ---- 编辑器 ----
+.vscode/
+.idea/
+*.swp
+*~
+
+# ---- 系统 ----
+.DS_Store
+Thumbs.db
+desktop.ini
+__MACOSX/
