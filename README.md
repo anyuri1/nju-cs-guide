@@ -11,13 +11,16 @@
 | 我现在想…… | 去这里 |
 | --- | --- |
 | 找培养方案、校内系统和学校已经买好的资源 | [校园](docs/校园/README.md) |
+| 知道该盯哪些通知、从哪里持续获取信息 | [信息源](docs/信息源/README.md) |
 | 给正在学的专业课找一门好课、一本好书或一组实验 | [课程](docs/课程/README.md) |
+| 练算法，准备机试和面试里的机考 | [课程](docs/课程/README.md) |
 | 补 Git、Linux、调试、构建和写作这些基本功 | [工具](docs/工具/README.md) |
 | 进实验室、读论文、做复现 | [科研](docs/科研/README.md) |
 | 查推免流程、准备夏令营和预推免 | [保研](docs/保研/README.md) |
 | 找第一段实习，准备简历和面试 | [实习](docs/实习/README.md) |
 | 了解考研或留学申请 | [升学](docs/升学/README.md) |
 | 找适合自己的竞赛 | [竞赛](docs/竞赛/README.md) |
+| 知道入党、学生工作、志愿时长什么时候该做 | [学业之外](docs/学业之外/README.md) |
 
 [slide.pdf](slides/slide.pdf) 是我作为朋辈导师分享留下的讲义，仅供归档；仓库不再维护幻灯片源码。模板的 MIT 许可见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。
 
