@@ -38,3 +38,30 @@
 适合交给它们的工作：解释陌生代码、生成样板、补测试、列排查路径、审阅 diff。不能外包的工作：确认需求、判断结果是否正确、遵守课程规定、保护密钥和私人数据。
 
 任何由工具生成但你无法解释的代码，暂时都不属于你。
+
+### 两个实验，和它们说明的事
+
+- Anthropic 的随机对照实验（52 名工程师学一个没用过的新库）：用 AI 的那组，事后理解力测验平均 50%，纯手写组 67%；**调试题的差距最大**，而速度优势并不显著。得分高的用法是问概念、要解释；得分低的是直接让它写、把它当调试拐棍。（[研究页](https://www.anthropic.com/research/AI-assistance-coding-skills)）
+- METR 2025 年 7 月的实验：资深开源开发者用 AI 后实测慢了 19%，自己却感觉快了 20%。**但 METR 在 [2026 年 2 月的更新](https://metr.org/blog/2026-02-24-uplift-update/)里说，后续数据因选择偏差已不可靠，重新估计反而是提速**——这条更适合当作“研究也有发布日期”的例子。
+
+结论不是别用，而是**用在你已经会一点的地方**：它是加速器，不是老师。学新东西时先自己写一遍，再看 AI 的。
+
+## 从零上手一条 AI 编程路线
+
+工具清单容易看花眼。这里给一条零成本、国内网络可达的路径：
+
+1. 装 [Node.js](https://nodejs.org/) LTS 版（pi 需要 Node 22 以上）；
+2. `npm install -g @earendil-works/pi-coding-agent`；
+3. 到 [platform.deepseek.com](https://platform.deepseek.com/) 创建 API key；
+4. 写进 `~/.zshrc`：`export DEEPSEEK_API_KEY=sk-xxxx`。
+
+然后在项目目录敲 `pi`，让它读代码、改一个文件、跑一次命令，最后 `git commit` 留下记录。
+
+**四步跑通，比读完十篇评测有用。** 其他方案（Copilot、Claude Code、Codex）见上方工具清单。
+
+## GitHub：两条安全线
+
+- **提交前**：`git status` 确认没混进 token、密码、私钥；`.env` 和密钥文件写进 `.gitignore`。
+- **一旦泄露**：立刻撤销并轮换密钥。**光删掉提交没用**——它还在历史里，别人可能已经拉走了。
+
+顺带值得知道的：[GitHub 学生包](https://education.github.com/pack)（含 Copilot 等权益，以官网为准）、[GitHub Pages](https://pages.github.com/)（免费主页）、[first-contributions](https://github.com/firstcontributions/first-contributions)（专门给新手练第一个 PR）、[goodfirstissue.dev](https://goodfirstissue.dev/)（筛“适合新手”的任务）。
