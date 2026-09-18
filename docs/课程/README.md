@@ -39,7 +39,7 @@
 
 ### 操作系统
 
-- [南京大学《操作系统原理》](https://jyywiki.cn/OS/2026/)：Jyy 的讲义、代码、录像和实验一体；优先跟当年主页。
+- [南京大学《操作系统原理》](https://jyywiki.cn/OS/2026/)：讲义、代码、录像和实验一体；优先跟当年主页。
 - [Operating Systems: Three Easy Pieces](https://pages.cs.wisc.edu/~remzi/OSTEP/)：围绕虚拟化、并发和持久化展开的免费教材，并提供模拟作业。
 - [MIT 6.1810 / xv6](https://pdos.csail.mit.edu/6.1810/)：小型 Unix 教学内核；适合已经学过 C 和计算机系统的人。
 
